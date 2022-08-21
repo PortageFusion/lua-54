@@ -1,0 +1,6 @@
+# Build Lua
+
+build() {
+  cd lua-5.4.4
+  make && sudo make install
+}
